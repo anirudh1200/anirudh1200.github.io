@@ -2,8 +2,162 @@
 	<head>
 		<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/>
 		<title>Anirudh Bhat</title>
+		<link rel="shortcut icon" type="image/png" href="assets/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
 	</head>
 	<body>
-		oofé this page be under construction :o
+		<div id="navbar">
+			<div id="logoBox">
+				<img src="assets/sa.svg"/>
+			</div>
+			<div id="navIconsBox">
+				<a href="#page1">
+					<i class="fas navIcon fa-home iconSelected"></i>
+				</a>
+				<a href="#page2">
+					<i class="fas navIcon fa-eye"></i>
+				</a>
+				<a href="#page3">
+					<i class="fas navIcon fa-envelope"></i>
+				</a>
+			</div>
+			<div id="contactIconsBox">
+				<div>
+					<i class="fab contactIcon fa-github"></i>
+				</div>
+					<i class="fab contactIcon fa-linkedin"></i>
+				<div>
+				</div>
+					<a class="u-email " href="mailto:anirudh.b.123@gmail.com">
+						<i class="fas contactIcon fa-at"></i>
+					</a>
+				<div>
+			</div>
+			</div>
+		</div>
+		<div id="page1">
+			<div id="logoSvg">
+				<img src="assets/a.svg" id="bigLogo" />
+			</div>
+			<div id="introBox">
+				<div class="introText">
+					Hello,
+				</div>
+				<div class="introText">
+					I'm <strong>Anirudh</strong>,
+				</div>
+				<div class="introText">
+					full-stack web developer.
+				</div>
+				<div class="slider-wrapper">
+					<span id="sliderText">I can write</span>
+					<div class="slider">
+								<div class="slider-text1">HTML</div>
+								<div class="slider-text2">CSS</div>
+								<div class="slider-text3">PHP</div>
+								<div class="slider-text4">React</div>
+								<div class="slider-text5">NodeJs</div>
+								<div class="slider-text6">Flask</div>
+								<div class="slider-text7">Django</div>
+					</div>
+				</div>
+				<div id="contactBox">
+					<a href="#page3">
+						<button id="contactButton">
+							CONTACT
+							<i class="fas fa-arrow-right"></i>
+						</button>
+					</a>
+				</div>
+			</div>
+			<div class="downButton">
+				<a href="#page2">
+					<button class="roundButton">
+						<i class="fas fa-chevron-down"></i>
+					</button>
+				</a>
+			</div>
+		</div>
+		<div id="page2">
+			<div class="contactHeader">Projects</div>
+			<div class="row">
+				<div class="example-1 card">
+					<div class="wrapper" id="back1">
+						<a target="_blank" href="https://github.com/anirudh1200/flask_Codebin">
+							<div class="data">
+								<div class="content">
+									<h1 class="title">CodeBin</h1>
+									<p class="text">An online platform for sharing data</p>
+									<p class="text">Backend: Flask</p>
+									<p class="text">Frontend: React</p>
+									<p class="text">Database: PostgreSQL</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="example-1 card">
+					<div class="wrapper" id="back2">
+						<a target="_blank" href="https://github.com/anirudh1200/1v1Coding">
+							<div class="data">
+								<div class="content">
+									<h1 class="title">1v1 Coding</h1>
+									<p class="text">A competition game where players can complete real-time on who finishes the coding problem first</p>
+									<p class="text">Backend: Nodejs</p>
+									<p class="text">Database: MongoDB</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="downButton">
+				<a href="#page3">
+					<button class="roundButton">
+						<i class="fas fa-chevron-down"></i>
+					</button>
+				</a>
+			</div>
+		</div>
+		<div id="page3">
+			<div class="contactHeader">Contact</div>
+			<form class="form">
+				<h3>Have a question or want to work together?</h3>
+				<p type="Name:"><input placeholder="Name" id="nameInput"></input></p>
+				<p type="Email:"><input placeholder="Enter Email" id="emailInput"></input></p>
+				<p type="Message:"><input placeholder="Your Message" id="messageInput"></input></p>
+				<button id="sendMessage">Send Message</button>
+				<h6 id="feedback"></h6>
+			</form>
+			<div id="linkBox">
+				<div class="artboard a1">
+					<div class="button" id="buttonLink1">
+						<i class="fab linkIcon fa-linkedin"></i>
+					</div>
+					<div class="links">
+						<a target="_blank" href="'https://www.linkedin.com/in/anirudh-bhat-a303a2179/'">Anirudh Bhat</a>
+					</div>
+				</div>
+				<div class="artboard a2">
+					<div class="button" id="buttonLink2">
+						<i class="fab linkIcon fa-github"></i>
+					</div>
+					<div class="links">
+						<a target="_blank" href="https://github.com/anirudh1200">anirudh1200</a>
+					</div>
+				</div>
+				<div class="artboard a3">
+					<div class="button" id="buttonLink3">
+						<i class="fas linkIcon fa-at"></i>
+					</div>
+					<div class="links">
+						<a class="u-email" target="_blank" href="mailto:anirudh.b.123@gmail.com">anirudh.b.123@gmail.com</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/main.js"></script>
 	</body>
 </html>
