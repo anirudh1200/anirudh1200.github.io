@@ -3,25 +3,23 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/>
 		<title>Anirudh Bhat</title>
 		<link rel="shortcut icon" type="image/png" href="assets/favicon.ico" />
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" media="screen and (min-width: 750px)" href="css/style.css">
+		<link rel="stylesheet" type="text/css" media="screen and (max-width: 750px)" href="css/style-mobile.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
 	</head>
 	<body>
 		<div id="navbar">
 			<div id="logoBox">
-				<img src="assets/sa.svg"/>
+				<img src="assets/sa.svg" id="smallLogo" />
+			</div>
+			<div id="hamburger">
+				<i class="fas fa-bars"></i>
 			</div>
 			<div id="navIconsBox">
-				<a href="#page1">
-					<i class="fas navIcon fa-home iconSelected"></i>
-				</a>
-				<a href="#page2">
-					<i class="fas navIcon fa-eye"></i>
-				</a>
-				<a href="#page3">
-					<i class="fas navIcon fa-envelope"></i>
-				</a>
+				<i class="fas navIcon fa-home iconSelected"></i>
+				<i class="fas navIcon fa-eye"></i>
+				<i class="fas navIcon fa-envelope"></i>
 			</div>
 			<div id="contactIconsBox">
 				<div>
@@ -60,24 +58,26 @@
 								<div class="slider-text4">React</div>
 								<div class="slider-text5">NodeJs</div>
 								<div class="slider-text6">Flask</div>
-								<div class="slider-text7">Django</div>
 					</div>
 				</div>
 				<div id="contactBox">
-					<a href="#page3">
-						<button id="contactButton">
-							CONTACT
-							<i class="fas fa-arrow-right"></i>
-						</button>
+					<button id="contactButton">
+						CONTACT
+						<i class="fas fa-arrow-right"></i>
+					</button>
+				</div>
+				<div id="contactIconsBoxMobile">
+					<i class="fab contactIcon fa-github"></i>
+					<i class="fab contactIcon fa-linkedin"></i>
+					<a class="u-email " href="mailto:anirudh.b.123@gmail.com">
+						<i class="fas contactIcon fa-at"></i>
 					</a>
 				</div>
 			</div>
 			<div class="downButton">
-				<a href="#page2">
-					<button class="roundButton">
-						<i class="fas fa-chevron-down"></i>
-					</button>
-				</a>
+				<button class="roundButton">
+					<i class="fas fa-chevron-down"></i>
+				</button>
 			</div>
 		</div>
 		<div id="page2">
@@ -114,11 +114,9 @@
 				</div>
 			</div>
 			<div class="downButton">
-				<a href="#page3">
-					<button class="roundButton">
-						<i class="fas fa-chevron-down"></i>
-					</button>
-				</a>
+				<button class="roundButton">
+					<i class="fas fa-chevron-down"></i>
+				</button>
 			</div>
 		</div>
 		<div id="page3">
