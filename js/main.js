@@ -5,6 +5,15 @@ const $ = (element, index) => {
 	return document.querySelector(element);
 }
 
+AOS.init({
+	disable:"mobile"
+});
+
+window.onload = () => {
+	$('#page1').style.opacity = 1;
+	$('#page1').style.transform = 'translateX(0)';
+};
+
 let currentPage = 1;
 
 $('#contactButton').addEventListener('click', () => {
