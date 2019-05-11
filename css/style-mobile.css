@@ -61,7 +61,7 @@ body{
 	transition: 750ms color;
 }
 .navIcon:hover{
-	color: #ffffff;
+	color: #11dddd;
 }
 #contactIconsBox{
   display: none;
@@ -71,7 +71,7 @@ body{
   margin-left: 15px;
 }
 .contactIcon:hover{
-	color: #ffffff;
+	color: #11dddd;
 }
 #page1{
 	background-color: #222629;
@@ -178,7 +178,8 @@ body{
 }
 #contactButton:hover{
 	color: #222629;
-  background-color: #ffffff;
+  background-color: #11dddd;
+  border-color: #11dddd;
 }
 #contactButton:hover .fa-arrow-right{
 	transform: rotate(90deg);
@@ -193,7 +194,7 @@ body{
   color: #bdbdbd;
 }
 .iconSelected{
-	color: #ffffff;
+	color: #11dddd;
 }
 .downButton{
 	position: absolute;
@@ -214,7 +215,8 @@ body{
 }
 .roundButton:hover{
 	color: #222629;
-	background-color: #ffffff;
+  background-color: #11dddd;
+  border-color: #11dddd;
 }
 #page2{
 	position: relative;
