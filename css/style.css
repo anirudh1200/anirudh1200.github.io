@@ -1,10 +1,11 @@
 html{
 	background-color: #222629;
-	scroll-behavior: smooth;
-	overflow: hidden;
+  scroll-behavior: smooth;
+  overflow: hidden;
 }
 body{
   position: absolute;
+  background-color: #222629;
   top: 0;
   left: 0;
   height: 100vh;
@@ -176,8 +177,9 @@ body{
   text-align: center;
   text-decoration: none;
   display: inline-block;
-	font-size: 18px;
-	transition: color 750ms, background-color 750ms, border-color 750ms;
+  font-size: 18px;
+  transition: color 750ms, background-color 750ms, border-color 750ms;
+  outline: none;
 }
 #contactButton:hover{
 	color: #222629;
@@ -212,7 +214,8 @@ body{
 	color: #ffffff;
 	transition: color 600ms, background-color 600ms;
 	text-align: center;
-	font-size: 1.5em;
+  font-size: 1.5em;
+  outline: none;
 }
 .roundButton:hover{
 	color: #222629;
@@ -420,7 +423,7 @@ p:before {
 	background-color: #0077b5;
 }
 #buttonLink2{
-	background-color: #1B1F23;
+	background-color: #161A1E;
 }
 #buttonLink3{
 	background-color: #F14336;

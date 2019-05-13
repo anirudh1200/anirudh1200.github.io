@@ -59,6 +59,7 @@ $('.fa-envelope').addEventListener('click', () => {
 });
 
 $('#hamburger').addEventListener('click', () => {
+	iconHighLight();
 	if ($('#navIconsBox').style.transform === 'translateX(0px)') {
 		$('#navIconsBox').style.transform = 'translateX(100%)';
 	} else {

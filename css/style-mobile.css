@@ -1,8 +1,6 @@
 html{
 	background-color: #222629;
   scroll-behavior: smooth;
-  overflow-y: visible;
-  overflow-x: hidden;
 }
 body{
   position: absolute;
@@ -12,8 +10,6 @@ body{
 	width: 100%;
 	margin: 0;
   padding: 0;
-  overflow-y: visible;
-  overflow-x: hidden;
 }
 #navbar{
 	position: fixed;
@@ -54,14 +50,11 @@ body{
   width: 100%;
   background-color: #181818;
   transform: translateX(100%);
-  transition: all 1s;
+  transition: all 1s ease-in;
 }
 .navIcon{
-  margin-left: 16%;
+  margin-left: 20%;
 	transition: 750ms color;
-}
-.navIcon:hover{
-	color: #11dddd;
 }
 #contactIconsBox{
   display: none;
@@ -69,9 +62,6 @@ body{
 .contactIcon{
   transition: 750ms color;
   margin-left: 15px;
-}
-.contactIcon:hover{
-	color: #11dddd;
 }
 #page1{
 	background-color: #222629;
@@ -87,11 +77,12 @@ body{
 }
 #logoSvg{
 	position: absolute;
-	left: 53%;
+  left: 60%;
 	top: 25vh;
 }
 #bigLogo{
-  height: 30vh;
+  height: 25vh;
+  max-height: 150px;
 }
 #introBox{
 	position: absolute;
@@ -174,12 +165,8 @@ body{
   text-decoration: none;
   display: inline-block;
 	font-size: 13px;
-	transition: color 750ms, background-color 750ms;
-}
-#contactButton:hover{
-	color: #222629;
-  background-color: #11dddd;
-  border-color: #11dddd;
+  transition: color 750ms, background-color 750ms;
+  outline: none;
 }
 #contactButton:hover .fa-arrow-right{
 	transform: rotate(90deg);
@@ -211,12 +198,8 @@ body{
 	color: #ffffff;
 	transition: color 600ms, background-color 600ms;
 	text-align: center;
-	font-size: 1.5em;
-}
-.roundButton:hover{
-	color: #222629;
-  background-color: #11dddd;
-  border-color: #11dddd;
+  font-size: 1.5em;
+  outline: none;
 }
 #page2{
 	position: relative;
@@ -318,6 +301,7 @@ p{
 .form {
   width: 85%;
   height: 50vh;
+  min-height: 375px;
   background: #222629;
   border-radius: 8px;
 	box-shadow: 0 0 8px -2px #000;
@@ -397,12 +381,11 @@ input:focus {
   color: white;
 }
 #linkBox{
-	position: absolute;
-  bottom: 8vh;
-  left: 7.5%;
-	width: 100%;
+	position: relative;
+  margin-top: 65px;
+  margin-left: 20%;
+  width: 75%;
   text-align: center;
-  margin-left: 8%;
 }
 .artboard {
 	font-family: 'Varela Round', sans-serif;
@@ -414,7 +397,7 @@ input:focus {
   position: relative;
   width: 40%;
   margin-left: 6%;
-  font-size: 11px;
+  font-size: 55%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
@@ -432,7 +415,7 @@ input:focus {
 	background-color: #0077b5;
 }
 #buttonLink2{
-	background-color: #1B1F23;
+	background-color: #161A1E;
 }
 #buttonLink3{
 	background-color: #F14336;
