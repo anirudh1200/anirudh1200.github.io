@@ -120,7 +120,7 @@ body{
 }
 .slider-text1 {
   background: orangered;
-  animation: slide 12s linear infinite;
+  animation: slide 10s linear infinite;
 }
 .slider-text2 {
   background: #1970B5;
@@ -137,7 +137,7 @@ body{
 .slider-text6 {
 	background: #000000;
 }
-@keyframes slide {
+/* @keyframes slide {
   0% {margin-top:-600px;}
   4% {margin-top:-500px;}
   16% {margin-top:-500px;}
@@ -151,6 +151,19 @@ body{
 	82% {margin-top:-100px;}
 	88% {margin-top:0px;}
 	100% {margin-top:0px;}
+} */
+@keyframes slide {
+  0% {margin-top:-500px;}
+  5% {margin-top:-400px;}
+  20% {margin-top:-400px;}
+  25% {margin-top:-300px;}
+  40% {margin-top:-300px;}
+  45% {margin-top:-200px;}
+	60% {margin-top:-200px;}
+	65% {margin-top:-100px;}
+	80% {margin-top:-100px;}
+  85% {margin-top:0px;}
+  100% {margin-top:0px;}
 }
 #contactBox{
 	margin-top: 6vh;
